@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "rgblight",
+  "version": "0.1.0",
+  "name": "RGB Light",
+  "description": "Operator-controlled RGB lights (point and spotlight), stored on the server. Server-side only, no client mod needed.",
+  "authors": ["Фиолетов"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.rgblight.RgbLight"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
